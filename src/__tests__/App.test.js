@@ -1,6 +1,9 @@
 import "@testing-library/jest-dom";
 import { render } from "@testing-library/react";
 import App from "../components/App";
+import username from "../data/user";
+import city from "../data/user";
+import image from "../data/user";
 
 test("it renders without crashing", () => {
   try {
@@ -9,3 +12,4 @@ test("it renders without crashing", () => {
     throw new Error("Make sure to import the required components!");
   }
 });
+export default App
